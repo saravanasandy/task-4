@@ -13,6 +13,7 @@
 
          var myvar =1;
          console.log(myvar);
+           //ANSWER:- 1
 
          //   3. Declare variables to store your first name, last name, marital status, country and age in multiple lines
 
@@ -99,6 +100,41 @@
 
               }
             console.log(symbol);
+
+
+              //    Arrays:
+
+              //    var myarray=[11,22,33,44,55]
+
+             //     write a code to count the elements in the array . Don’t use length property
+ 
+                var myarray=[11,22,33,44,55];
+
+                function findlength(myarray,value){
+                return myarray.push(value);
+                }
+
+                console.log(findlength(myarray,120) );
+
+                //    Objects:-
+
+//                 What the output
+
+//                 myobject = {1:one,”11":1,”name”:”arun”}
+//                 console.log(myobject.11); 
+//                 console.log(myobject.name);
+
+
+                   myobject = {1:"one",11:1,name:"arun"};
+                    console.log(myobject[11]); 
+                    console.log(myobject.name);
+    
+                    // output is 1, arun.
+
+
+                   
+
+                      
          
 
 
